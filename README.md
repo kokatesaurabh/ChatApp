@@ -1,8 +1,5 @@
 # ✨ Full Stack Realtime Chat App ✨
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
 
 Highlights:
 
@@ -19,7 +16,7 @@ Highlights:
 
 ```js
 MONGODB_URI=...
-PORT=5001
+PORT=5000
 JWT_SECRET=...
 
 CLOUDINARY_CLOUD_NAME=...
