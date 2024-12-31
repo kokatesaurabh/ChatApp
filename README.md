@@ -1,6 +1,6 @@
 # ✨ Full Stack Realtime Chat App ✨
 
-
+to see live website visit: https://chatapp-snim.onrender.com/
 Highlights:
 
 - 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
