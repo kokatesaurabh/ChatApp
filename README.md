@@ -33,29 +33,36 @@ Check out the live version of the app here: [chatapp-snim.onrender.com](https://
 ---
 
 
-## 🚀 Quick Start
+# 🚀 Quick Start
 
 ### 1. Clone the repository
 
 ```shell
 git clone https://github.com/yourusername/chatapp.git
 cd chatapp
+```
 
 ### 2. Install dependencies
 
-## For the backend:
+#### For the backend:
 
+```shell
 cd backend
 npm install
+```
 
-## For the frontend:
+#### For the frontend:
 
+```shell
 cd frontend
 npm install
+```
 
 ### 3. Configure the environment variables
-##Create a .env file in the backend directory with the following variables:
 
+Create a `.env` file in the **backend** directory with the following variables:
+
+```shell
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_jwt_secret_key
@@ -63,19 +70,29 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 NODE_ENV=development
+```
 
 ### 4. Build the app
 
+```shell
 npm run build
+```
 
 ### 5. Start the application
-##To start the backend server:
 
+#### To start the backend server:
+
+```shell
 cd backend
 npm start
+```
 
-## To start the frontend development server:
+#### To start the frontend development server:
 
+```shell
 cd frontend
 npm start
+```
+
+
 
